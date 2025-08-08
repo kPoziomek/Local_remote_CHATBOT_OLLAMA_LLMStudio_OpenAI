@@ -1,0 +1,24 @@
+{
+  "name": "agentsapiconnections",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch --watch-preserve-output  server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@ai-sdk/openai": "^1.1.0",
+    "@langchain/openai": "^0.3.17",
+    "ai": "^4.1.0",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "dotenv": "16.4.5",
+    "openapi": "^1.0.1"
+  }
+}
