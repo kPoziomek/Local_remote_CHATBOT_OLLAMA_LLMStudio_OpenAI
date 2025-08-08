@@ -11,6 +11,5 @@ export const selectedEndpoint = atom<string>(endpoints[0].value);
 
 
 export function setSelectedEndpoint(value:string) {
-  console.log('Saving selected endpoint:', value);
   selectedEndpoint.set(value);
 }

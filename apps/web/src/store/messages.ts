@@ -19,7 +19,6 @@ export function setMessages(newMessages: {
   sender: 'user' | 'bot' | 'assistant',
   timestamp: Date
 }[]) {
-  console.log('Saving messages:', newMessages);
   messages.set(newMessages);
 }
 
@@ -29,6 +28,5 @@ export function addMessage(newMessage: {
   sender: 'user' | 'bot' | 'assistant',
   timestamp: Date
 }) {
-  console.log('Adding message:', newMessage);
   messages.set([...messages.get(), newMessage]);
 }
